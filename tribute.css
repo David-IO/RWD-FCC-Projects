@@ -1,0 +1,73 @@
+html * {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    text-align: center;
+    font-family: Helvetica, sans-serif;
+    background-color: #dfdddd;
+}
+
+#heading h1 {
+    margin: 0.8em auto 0.4;
+}
+
+#heading p {
+    margin: 0.5em;
+}
+
+#img-div {
+    width: 80%;
+    margin: 0 auto;
+    padding: 2em;
+    background-color: #F0F0F0;
+}
+
+#image {
+    width: 100%;
+    max-width: 7600px;
+}
+
+#img-caption {
+    margin-top: 1em;
+    margin-bottom: -1em;
+}
+
+#tribute-info {
+    width: 70%;
+    margin: 1.5em auto;
+    text-align: left;
+    line-height: 2;
+}
+
+#tribute-info > h3 {
+    text-align: center;
+}
+
+.year {
+    font-weight: bold;
+}
+
+#achievements ul {
+    
+}
+
+#achievements li {
+    list-style-type: none;
+    font-size: 12px;
+}
+
+#special {
+    width: 90%;
+    margin: 0 auto;
+    font-size: 0.7em;
+    font-style: italic;
+}
+
+#footer {
+    width: 80%;
+    margin: .5em auto;
+    text-align: center;
+}

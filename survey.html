@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FreeCodeCamp Survey</title>
+    <link rel="stylesheet" href="./survey.css">
+</head>
+<body>
+    <header>
+        <h1 id="title">FreeCodeCamp Survey Form</h1>
+        <p id="description">Thank you for taking the time to help us improve the platform</p>
+    </header>
+
+    <form action="" method="post" id="survey-form">
+        <label for="name" id="name-label">Name</label>
+        <input type="text" name="name" id="name" placeholder="Enter your name" required>
+
+        <label for="email" id="email-label">Email</label>
+        <input type="email" name="email" id="email" placeholder="Enter your Email" required>
+        
+        <label for="age" id="age-label">Age (optional)</label>
+        <input type="number" name="age" id="age" min="18" max="65" placeholder="Age" required>
+
+        <p>What option best describes your current role</p>
+        <select name="" id="dropdown">
+            <option value="none" disabled selected>Select Current Role</option>
+            <option value="student">Student</option>
+            <option value="full-time-job">Full Time Job</option>
+            <option value="full-time-learner">Full Time Learner</option>
+            <option value="prefer-not-to-say">Prefer not to say</option>
+            <option value="other">Other</option>
+        </select>
+
+        <p>Would you recommend FreeCodeCamp to a friend?</p>
+        <div class="inline-block"><input type="radio" name="recommend" value="definitely" id="">Definitely</div>
+        <div class="inline-block"><input type="radio" name="recommend" value="maybe" id="">Maybe</div>
+        <div class="inline-block"><input type="radio" name="recommend" value="not-sure" id="">Not Sure</div>
+
+        <p>What is your favourite feature of FreeCodeCamp?</p>
+        <select name="" id="dropdown">
+            <option value="none" disabled selected>Select an option</option>
+            <option value="challenges">Challenges</option>
+            <option value="projects">Projects</option>
+            <option value="community">Community</option>
+            <option value="open-source">Open Source</option>
+        </select>
+
+        <p>What would you like to see improved? <span>(check all that apply)</span></p>
+        <div class="inline-block">
+            <input type="checkbox" name="improved" value="front-end" id="">Front-End Projects
+        </div>
+        <div class="inline-block">
+            <input type="checkbox" name="improved" value="back-end" id="">
+            Back-end Projects
+        </div>
+        <div class="inline-block">
+            <input type="checkbox" name="improved" value="data-visualization" id="">Data Visualization
+        </div>
+        <div class="inline-block">
+            <input type="checkbox" name="improved" value="" id="">Challenges
+        </div>
+        <div class="inline-block">
+            <input type="checkbox" name="improved" value="" id="">Open Source Community
+        </div>
+        <div class="inline-block">
+            <input type="checkbox" name="improved" value="" id="">Gitter help rooms
+        </div>
+        <div class="inline-block">
+            <input type="checkbox" name="improved" value="" id="">Videos
+        </div>
+        <div class="inline-block">
+            <input type="checkbox" name="improved" value="" id="">City Meetups
+        </div>
+        <div class="inline-block">
+            <input type="checkbox" name="improved" value="" id="">Wiki
+        </div>
+        <div class="inline-block">
+            <input type="checkbox" name="improved" value="" id="">Forum
+        </div>
+        <div class="inline-block">
+            <input type="checkbox" name="improved" value="" id="">Additional Courses
+        </div>
+
+        <p>Any comments or suggestions?</p>
+        <textarea name="textarea" id=""  placeholder="Enter your comment here..."></textarea>
+
+        <input type="submit" value="Submit">
+    </form>
+
+</body>
+</html>
